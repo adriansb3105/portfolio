@@ -7,21 +7,7 @@ import SlideUp from './slide-up'
 const projects = [
     {
         name: 'Creaciones Princess',
-        description: 'Website for the business Creaciones Princess',
-        image: '/creacionesprincess.jpg',
-        github: 'https://github.com/adriansb3105/creaciones-princess',
-        link: 'https://creacionesprincess.com'
-    },
-    {
-        name: 'Creaciones Princess',
-        description: 'Website for the business Creaciones Princess',
-        image: '/creacionesprincess.jpg',
-        github: 'https://github.com/adriansb3105/creaciones-princess',
-        link: 'https://creacionesprincess.com'
-    },
-    {
-        name: 'Creaciones Princess',
-        description: 'Website for the business Creaciones Princess',
+        description: 'Creaciones Princess is a business in Costa Rica that produces handcrafting, agendas, event decorations, cakes, and desserts.',
         image: '/creacionesprincess.jpg',
         github: 'https://github.com/adriansb3105/creaciones-princess',
         link: 'https://creacionesprincess.com'
@@ -32,7 +18,7 @@ const ProjectsSection = () => {
   return (
     <section id='projects'>
         <h2 className='text-center font-bold text-4xl'>
-            About Me
+            Projects
             <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded' />
         </h2>
 
