@@ -4,6 +4,7 @@ import '../styles/globals.css'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 import { ThemeProvider } from 'next-themes'
+import Head from './head'
 
 export default function RootLayout({
   children,
@@ -12,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <head />
+      <Head />
       <body>
         <ThemeProvider enableSystem={true} attribute='class'>
           <Navbar />
