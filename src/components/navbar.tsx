@@ -31,7 +31,7 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className='w-full mx-auto px-4 bg-white shadow fixed top-0 z-50 sm:px-20 dark:bg-stone-900 dark:border-b dark:border-stone-600'>
+    <header className='w-full mx-auto px-4 shadow fixed top-0 z-50 sm:px-20 dark:bg-stone-900 border-b border-teal-700'>
         <div className='justify-between md:items-center md:flex'>
             <div>
                 <div className='flex items-center justify-between py-3'>
@@ -55,7 +55,7 @@ const Navbar = () => {
                                     key={id}
                                     to={item.page}
                                     className={
-                                        'block lg:inline-block text-neutral-900 hover:text-neutral-500 dark:text-neutral-100 cursor-pointer'
+                                        'block lg:inline-block hover:text-neutral-500 dark:text-neutral-100 cursor-pointer'
                                     }
                                     activeClass='active'
                                     spy={true}
