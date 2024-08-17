@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head />
-      <body className='dark:bg-stone-900'>
+      <body>
         <ThemeProvider enableSystem={true} attribute='class'>
           <Navbar />
           {children}

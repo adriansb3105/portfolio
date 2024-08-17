@@ -31,17 +31,17 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className='w-full mx-auto px-4 shadow fixed top-0 z-50 sm:px-20 dark:bg-stone-900 border-b border-teal-700'>
+    <header className='w-full mx-auto px-4 shadow fixed top-0 z-50 sm:px-20 bg-stone-900 border-b border-teal-700 text-white'>
         <div className='justify-between md:items-center md:flex'>
             <div>
                 <div className='flex items-center justify-between py-3'>
                     <Link to='home' className='cursor-pointer'>
                         <div className='md:py-5 md:block'>
-                            <h2 className='text-2xl font-bold'>Adrián Serrano</h2>
+                            <h2 className='text-2xl font-bold dark:text-white'>Adrián Serrano</h2>
                         </div>
                     </Link>
                     <div className='md:hidden'>
-                        <button onClick={() => setNavbar(!navbar)}>{navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}</button>
+                        <button onClick={() => setNavbar(!navbar)}>{navbar ? <IoMdClose color='white' size={30} /> : <IoMdMenu color='white' size={30} />}</button>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                             </button>
                         ) : (
                             <button onClick={() => setTheme('dark')} className='bg-slate-100 p-2 rounded-xl'>
-                                <RiMoonFill size={25} />
+                                <RiMoonFill size={25} color='black' />
                             </button>
                         )}
                     </div>
