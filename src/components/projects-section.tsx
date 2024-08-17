@@ -11,6 +11,13 @@ const projects = [
         image: '/creacionesprincess.jpg',
         github: 'https://github.com/adriansb3105/creaciones-princess',
         link: 'https://creacionesprincess.com'
+    },
+    {
+        name: 'Fine Gold Barber Style',
+        description: 'Fine Gold Barber Style offers hair and beard cuts, eyebrows, designs, marking, facial cleansing, waxing, and more.',
+        image: '/finegoldbarberstyle.png',
+        github: 'https://github.com/adriansb3105/finegoldbarberstyle',
+        link: 'https://finegoldbarberstyle.com'
     }
 ]
 
