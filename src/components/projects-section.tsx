@@ -18,6 +18,20 @@ const projects = [
         image: '/finegoldbarberstyle.png',
         github: 'https://github.com/adriansb3105/finegoldbarberstyle',
         link: 'https://finegoldbarberstyle.com'
+    },
+    {
+        name: 'Pathology Cards',
+        description: 'Website to include the terms, images and descriptions about Pathology.',
+        image: '/pathologycards.png',
+        github: 'https://github.com/adriansb3105/pathology-cards',
+        link: 'https://tarjetas-patologia-2.vercel.app/'
+    },
+    {
+        name: 'Donation System',
+        description: 'The system aims to decentralize donations around the world. Developed in Solidity and deployed on the Optimism network.',
+        image: '/donationsystem.png',
+        github: 'https://github.com/adriansb3105/solidity-project',
+        link: 'https://solidity-project-8r7q.vercel.app/'
     }
 ]
 
