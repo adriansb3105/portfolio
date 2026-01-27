@@ -8,24 +8,24 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Alex Chen | Senior Full Stack Developer – Java & React',
-  description: 'Senior Full Stack Developer with 10+ years of experience specializing in Java, Spring Boot, React, and cloud-native architectures. Building scalable, high-performance enterprise applications.',
+  title: 'Adrian Serrano | Senior Full Stack Developer – Java & React',
+  description: 'Senior Full Stack Developer with 8+ years of experience specializing in Java, Spring Boot, React, and cloud-native architectures. Building scalable, high-performance enterprise applications.',
   keywords: ['Full Stack Developer', 'Java Developer', 'React Developer', 'Spring Boot', 'Software Engineer', 'Senior Developer', 'Web Development', 'Cloud Architecture', 'Microservices'],
-  authors: [{ name: 'Alex Chen' }],
-  creator: 'Alex Chen',
+  authors: [{ name: 'Adrian Serrano' }],
+  creator: 'Adrian Serrano',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://alexchen.dev',
-    siteName: 'Alex Chen Portfolio',
-    title: 'Alex Chen | Senior Full Stack Developer',
-    description: 'Senior Full Stack Developer with 10+ years of experience building scalable enterprise applications with Java, React, and cloud technologies.',
+    url: 'https://adrianserrano.pro',
+    siteName: 'Adrian Serrano Portfolio',
+    title: 'Adrian Serrano | Senior Full Stack Developer',
+    description: 'Senior Full Stack Developer with 8+ years of experience building scalable enterprise applications with Java, React, and cloud technologies.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Alex Chen | Senior Full Stack Developer',
+    title: 'Adrian Serrano | Senior Full Stack Developer',
     description: 'Senior Full Stack Developer specializing in Java & React. Building scalable solutions with modern technologies.',
-    creator: '@alexchen',
+    creator: '@adriansb3105',
   },
   robots: {
     index: true,

@@ -37,7 +37,7 @@ export function Navbar() {
           href="#"
           className="text-xl font-semibold text-foreground hover:text-primary transition-colors"
         >
-          Alex Chen
+          Adrian Serrano
         </a>
 
         {/* Desktop Navigation */}

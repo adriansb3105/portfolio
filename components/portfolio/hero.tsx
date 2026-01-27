@@ -49,7 +49,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          Alex Chen
+          Adrian Serrano
         </motion.h1>
         <motion.h2
           className="text-xl md:text-2xl text-muted-foreground mb-6"
@@ -67,7 +67,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           Building scalable, performant applications with clean architecture and
-          modern technologies. 10+ years crafting digital experiences that make
+          modern technologies. 8+ years crafting digital experiences that make
           a difference.
         </motion.p>
         <motion.div
@@ -98,9 +98,9 @@ export function Hero() {
             className="border-primary/50 text-primary hover:bg-primary/10 px-8 bg-transparent"
           >
             <a
-              href="/cv/alex-chen-cv.pdf"
-              download="Alex-Chen-CV.pdf"
-              aria-label="Download CV as PDF"
+              href="/resume/adrian-serrano-resume.pdf"
+              download="Adrian-Serrano-Resume.pdf"
+              aria-label="Download Resume as PDF"
             >
               <Download className="w-4 h-4 mr-2" aria-hidden="true" />
               Download CV
