@@ -58,7 +58,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
         >
           Senior Full Stack Developer{" "}
-          <span className="text-primary">—</span> Java & React
+          <span className="text-primary">—</span> Java | React | AWS
         </motion.h2>
         <motion.p
           className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed text-pretty"
@@ -66,9 +66,8 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          Building scalable, performant applications with clean architecture and
-          modern technologies. 8+ years crafting digital experiences that make
-          a difference.
+          Building, scaling, and maintaining production systems using Java, Spring Boot, React, and AWS. 
+          6+ years of strong background in backend-driven architecture, cloud-native development, and modern DevOps practices.
         </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row gap-4 justify-center"
