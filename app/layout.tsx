@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Adrian Serrano | Senior Full Stack Developer – Java & React',
+  title: 'Adrian Serrano | Senior Full Stack Developer – Java | React | AWS',
   description: 'Senior Full Stack Developer with 8+ years of experience specializing in Java, Spring Boot, React, and cloud-native architectures. Building scalable, high-performance enterprise applications.',
   keywords: ['Full Stack Developer', 'Java Developer', 'React Developer', 'Spring Boot', 'Software Engineer', 'Senior Developer', 'Web Development', 'Cloud Architecture', 'Microservices'],
   authors: [{ name: 'Adrian Serrano' }],
@@ -31,24 +31,13 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  generator: 'v0.app',
   icons: {
     icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      { url: '/favicon.ico' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
     ],
-    apple: '/apple-icon.png',
-  },
+    apple: '/apple-touch-icon.png',
+  }
 }
 
 export default function RootLayout({
