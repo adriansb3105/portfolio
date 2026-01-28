@@ -26,7 +26,6 @@ import {
   siCss,
   siTerraform,
   siN8n,
-  siPostman,
 } from "simple-icons/icons";
 
 import {
@@ -127,7 +126,7 @@ const technologies: Technology[] = [
   {
     category: "Cloud & DevOps",
     items: [
-      { name: "AWS", icon: svg("/icons/AWS.svg", "AWS", 1.1) },
+      { name: "AWS", icon: svg("/icons/aws.svg", "AWS", 1.1) },
       { name: "Docker", icon: simple(siDocker) },
       { name: "Kubernetes", icon: simple(siKubernetes) },
       { name: "CI/CD", icon: svg("/icons/cicd.svg", "CI/CD", 1) },
