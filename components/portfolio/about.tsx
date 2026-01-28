@@ -3,9 +3,9 @@
 import { FadeIn, StaggerContainer, StaggerItem } from "./motion";
 
 const stats = [
-  { value: "10+", label: "Years Experience" },
-  { value: "50+", label: "Projects Delivered" },
-  { value: "15+", label: "Technologies Mastered" },
+  { value: "6+", label: "Years Experience" },
+  { value: "10+", label: "Projects Delivered" },
+  { value: "20+", label: "Technologies Mastered" },
   { value: "100%", label: "Client Satisfaction" },
 ];
 
@@ -24,15 +24,17 @@ export function About() {
           {/* Left Column */}
           <FadeIn delay={0.1} className="space-y-6">
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I'm a passionate software engineer with over a decade of
-              experience building robust, scalable applications. My journey
-              began with Java enterprise systems and evolved into full-stack
-              development with modern React ecosystems.
+              I'm a full-stack software engineer with a 
+              strong focus on performance and scalability. I'm especially 
+              motivated by enterprise and product-driven projects that solve 
+              real problems and require thoughtful technical decisions.
             </p>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              Currently, I specialize in architecting microservices and creating
-              intuitive user interfaces that bridge complex backend systems with
-              seamless user experiences.
+              I work comfortably across the stack and have a strong interest 
+              in cloud-based architectures, always aiming to build efficient, 
+              reliable, and maintainable solutions. I approach software development 
+              analytically, valuing clarity, long-term sustainability, and 
+              pragmatic engineering over trends or hype.
             </p>
           </FadeIn>
 
@@ -40,10 +42,9 @@ export function About() {
           <div className="space-y-6">
             <FadeIn delay={0.2}>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                Beyond coding, I'm deeply invested in mentoring junior developers,
-                contributing to open-source projects, and staying current with
-                emerging technologies. I believe in writing clean, maintainable
-                code that stands the test of time.
+                Outside of tech, I enjoy staying active through sports and music, 
+                which helps me maintain balance and focus—qualities I bring back 
+                into my work as an engineer.
               </p>
             </FadeIn>
             <StaggerContainer className="grid grid-cols-2 gap-6 pt-4">

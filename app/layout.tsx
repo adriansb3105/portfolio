@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Adrian Serrano | Senior Full Stack Developer – Java | React | AWS',
-  description: 'Senior Full Stack Developer with 8+ years of experience specializing in Java, Spring Boot, React, and cloud-native architectures. Building scalable, high-performance enterprise applications.',
-  keywords: ['Full Stack Developer', 'Java Developer', 'React Developer', 'Spring Boot', 'Software Engineer', 'Senior Developer', 'Web Development', 'Cloud Architecture', 'Microservices'],
+  title: 'Adrian Serrano | Senior Full Stack Developer',
+  description: 'Building, scaling, and maintaining production systems using Java, Spring Boot, React, and AWS. 6+ years of strong background in backend-driven architecture, cloud-native development, and modern DevOps practices.',
+  keywords: ['Full Stack Developer', 'Java Developer', 'React Developer', 'Spring Boot', 'Software Engineer', 'Senior Developer', 'Web Development', 'AWS', 'Cloud Architecture', 'Microservices'],
   authors: [{ name: 'Adrian Serrano' }],
   creator: 'Adrian Serrano',
   openGraph: {
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     url: 'https://adrianserrano.pro',
     siteName: 'Adrian Serrano Portfolio',
     title: 'Adrian Serrano | Senior Full Stack Developer',
-    description: 'Senior Full Stack Developer with 8+ years of experience building scalable enterprise applications with Java, React, and cloud technologies.',
+    description: 'Building, scaling, and maintaining production systems using Java, Spring Boot, React, and AWS. 6+ years of strong background in backend-driven architecture, cloud-native development, and modern DevOps practices.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Adrian Serrano | Senior Full Stack Developer',
-    description: 'Senior Full Stack Developer specializing in Java & React. Building scalable solutions with modern technologies.',
+    description: 'Building, scaling, and maintaining production systems using Java, Spring Boot, React, and AWS. 6+ years of strong background in backend-driven architecture, cloud-native development, and modern DevOps practices.',
     creator: '@adriansb3105',
   },
   robots: {
