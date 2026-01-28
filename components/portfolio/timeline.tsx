@@ -16,70 +16,70 @@ export interface TimelineEntry {
 
 const experienceData: TimelineEntry[] = [
   {
-    date: "2021 — Present",
-    title: "Senior Full Stack Developer",
-    organization: "TechCorp Global",
+    date: "2025",
+    title: "Senior Software Engineer",
+    organization: "Lancesoft Inc.",
     description:
-      "Leading development of microservices architecture serving 2M+ users. Mentoring team of 5 developers and driving technical decisions.",
+      "Designed and delivered full-stack features using Java, Spring Boot, and React within AWS-hosted microservices. Improved deployment reliability and system scalability through CI/CD optimization, Docker, and Kubernetes.",
     type: "experience",
   },
   {
-    date: "2018 — 2021",
-    title: "Full Stack Developer",
-    organization: "InnovateTech Solutions",
+    date: "2019 — 2025",
+    title: "Software Engineer",
+    organization: "TeKnowledge",
     description:
-      "Built and maintained React applications with Java Spring Boot backends. Improved API response times by 40%.",
+      "Key contributor to Fortify enterprise security and static analysis platforms, maintaining large-scale Java and Spring Boot systems. Automated build and release pipelines across Azure DevOps and AWS, accelerating delivery and ensuring production stability.",
     type: "experience",
   },
   {
-    date: "2015 — 2018",
-    title: "Java Developer",
-    organization: "Enterprise Systems Inc.",
+    date: "2021",
+    title: "Software Engineer",
+    organization: "Lanamme UCR",
     description:
-      "Developed enterprise Java applications for financial sector. Implemented secure payment processing systems.",
-    type: "experience",
-  },
-  {
-    date: "2013 — 2015",
-    title: "Junior Developer",
-    organization: "StartupHub",
-    description:
-      "Started career building web applications. Learned agile methodologies and collaborative development practices.",
+      "Built internal asset management tools using C#, ASP.NET, and SQL Server for research operations. Collaborated in requirements analysis, database design, and stakeholder alignment to deliver practical solutions.",
     type: "experience",
   },
 ];
 
 const educationData: TimelineEntry[] = [
   {
-    date: "2023",
-    title: "AWS Solutions Architect",
-    organization: "Amazon Web Services",
+    date: "Present",
+    title: "Licentiate Degree in Computer Engineering and Project Management",
+    organization: "Universidad Estatal a Distancia (UNED), Costa Rica",
     description:
-      "Professional certification for designing distributed systems on AWS cloud infrastructure.",
+      "Focused on advanced software engineering practices and technical project leadership.",
+    type: "education",
+  },
+  {
+    date: "2025",
+    title: "Ethereum Developer Pack Course",
+    organization: "CENFOTEC University, Costa Rica",
+    description:
+      "Advanced training in Ethereum development and Solidity best practices.",
+    type: "certification",
+  },
+  {
+    date: "2024",
+    title: "Web3 Certification: Blockchain, Solidity, and Governance with Optimism",
+    organization: "CENFOTEC University, Costa Rica",
+    description:
+      "Practical exposure to smart contracts, decentralized systems, and governance models.",
     type: "certification",
   },
   {
     date: "2022",
-    title: "Kubernetes Administrator",
-    organization: "CNCF",
+    title: "Bachelor's Degree in Software Engineering for Information Systems",
+    organization: "Universidad de Costa Rica, Costa Rica",
     description:
-      "Certified Kubernetes Administrator (CKA) for container orchestration and cluster management.",
-    type: "certification",
+      "Strong foundation in software architecture, databases, and enterprise system development.",
+    type: "education",
   },
   {
-    date: "2020",
-    title: "Spring Professional",
-    organization: "VMware",
+    date: "2014",
+    title: "Senior Technician in Service Center",
+    organization: "CENFOTEC University, Costa Rica",
     description:
-      "Professional certification for Spring Framework and Spring Boot development.",
-    type: "certification",
-  },
-  {
-    date: "2009 — 2013",
-    title: "B.S. Computer Science",
-    organization: "MIT",
-    description:
-      "Bachelor's degree with focus on software engineering and distributed systems. Graduated with honors.",
+      "Hands-on technical training in IT support, systems maintenance, and troubleshooting.",
     type: "education",
   },
 ];
