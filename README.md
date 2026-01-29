@@ -3,7 +3,7 @@
 Modern, professional, and responsive developer portfolio built with **Next.js**, **React**, and **Tailwind CSS**.  
 Designed to showcase experience, projects, and technical background with a clean, senior-level aesthetic.
 
-🔗 **Live Demo:** https://your-domain.com  
+🔗 **Live Demo:** https://adrianserrano.pro/  
 📄 **Download CV:** Available directly from the website
 
 ---
@@ -31,33 +31,3 @@ Designed to showcase experience, projects, and technical background with a clean
 - **Animations:** Framer Motion
 - **Icons:** Lucide React
 - **Deployment:** Vercel
-
----
-
-## 📁 Project Structure
-
-```bash
-src/
- ├─ app/
- │   ├─ layout.tsx        # Global layout & SEO metadata
- │   ├─ page.tsx          # Main page
- │   ├─ globals.css
- │
- ├─ components/
- │   ├─ Navbar.tsx
- │   ├─ Hero.tsx
- │   ├─ ExperienceEducation.tsx
- │   ├─ Timeline/
- │   │   ├─ Timeline.tsx
- │   │   └─ TimelineItem.tsx
- │   ├─ Projects.tsx
- │   └─ Contact.tsx
- │
- ├─ data/
- │   ├─ experience.ts
- │   ├─ education.ts
- │   └─ projects.ts
- │
- └─ public/
-     └─ cv/
-         └─ Adrian_Serrano_CV.pdf

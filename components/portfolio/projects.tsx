@@ -5,46 +5,46 @@ import { FadeIn, StaggerContainer, StaggerItem } from "./motion";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Creaciones Princess",
     description:
-      "A high-performance e-commerce solution handling 100K+ daily transactions with React frontend and Java microservices backend.",
-    tags: ["React", "Java", "Spring Boot", "PostgreSQL", "Redis"],
-    link: "#",
+      "Website for the business Creaciones Princess, a family business that creates pastries, baked goods, artisan bread, planners, notebooks, bookbinding, crafts, scrapbooking and much more with love and dedication.",
+    tags: ["Next.js", "React.js", "TailwindCSS"],
+    link: "https://creacionesprincess.com/",
   },
   {
-    title: "Real-Time Analytics Dashboard",
+    title: "DeFi Yield Farming DApp",
     description:
-      "Live data visualization platform processing millions of events per minute with WebSocket connections and D3.js charts.",
-    tags: ["Next.js", "TypeScript", "Kafka", "Elasticsearch", "D3.js"],
-    link: "#",
+      "This project is a Yield Farming platform that allows users to deposit LP tokens, earn rewards in a DAPP, and easily manage their funds from a modern web interface.",
+    tags: ["Next.js", "TypeScript", "Solidity", "Hardhat", "Wagmi and RainbowKit"],
+    link: "https://github.com/adriansb3105/defi-yield-farming",
   },
   {
-    title: "Healthcare Management System",
+    title: "Pathology Cards",
     description:
-      "HIPAA-compliant patient management system with secure data handling, appointment scheduling, and telemedicine integration.",
-    tags: ["React", "Node.js", "MongoDB", "AWS", "Docker"],
-    link: "#",
+      "Website to include the terms, images and descriptions of the course Pathology.",
+    tags: ["Next.js", "React.js", "TypeScript", "Cloudinary", "CSS"],
+    link: "https://tarjetas-patologia-2.vercel.app/",
   },
   {
-    title: "Financial Trading Platform",
+    title: "Tesla landing",
     description:
-      "Low-latency trading application with real-time market data feeds, order management, and risk assessment algorithms.",
-    tags: ["Java", "Spring Boot", "React", "WebSocket", "Kubernetes"],
-    link: "#",
+      "Tesla landing website.",
+    tags: ["HTML", "CSS", "JavaScript", "Astro", "TailwindCSS"],
+    link: "https://teslalandingsiteclone.netlify.app/",
   },
   {
-    title: "Open Source CLI Tool",
+    title: "Budget Execution Platform",
     description:
-      "Developer productivity tool with 5K+ GitHub stars. Automates common development workflows and integrations.",
-    tags: ["TypeScript", "Node.js", "CLI", "Open Source"],
-    link: "#",
+      "Platform that allows the division and control of the institutional budget.",
+    tags: ["HTML", "CSS", "JavaScript", "C# .NET"],
+    link: "https://github.com/adriansb3105/Plataforma-Ejecucion-Presupuestaria",
   },
   {
-    title: "Mobile Banking App",
+    title: "DearGift",
     description:
-      "Cross-platform mobile application serving 500K+ users with biometric authentication and instant payments.",
-    tags: ["React Native", "Java", "GraphQL", "AWS Lambda"],
-    link: "#",
+      "Mobile application to find the correct gift to that special person.",
+    tags: ["Apache Cordova", "HTML", "CSS", "JavaScrip", "PHP"],
+    link: "https://github.com/adriansb3105/deargift",
   },
 ];
 
@@ -92,6 +92,7 @@ export function Projects() {
                     href={project.link}
                     className="flex items-center gap-2"
                     aria-label={`View ${project.title} project`}
+                    target="blank"
                   >
                     View Project
                     <svg

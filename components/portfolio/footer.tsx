@@ -10,7 +10,7 @@ export function Footer() {
       <FadeIn>
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            {currentYear} Adrian Serrano. Built with Next.js & Tailwind CSS.
+            {currentYear} Adrian Serrano.
           </p>
           <nav>
             <ul className="flex items-center gap-6">
