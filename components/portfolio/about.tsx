@@ -3,7 +3,7 @@
 import { FadeIn, StaggerContainer, StaggerItem } from "./motion";
 
 const stats = [
-  { value: "6+", label: "Years Experience" },
+  { value: "9+", label: "Years Experience" },
   { value: "10+", label: "Projects Delivered" },
   { value: "20+", label: "Technologies Mastered" },
   { value: "100%", label: "Client Satisfaction" },
