@@ -6,6 +6,13 @@ import { FadeIn } from "./motion";
 
 const experience = [
   {
+    date: "March 2026 - Present",
+    title: "Senior Software Engineer",
+    company: "Encora Inc. (Client: Google)",
+    description:
+      "Contribute to the implementation of software architectures, translating functional requirements into technical solutions and development tasks. Develop and maintain backend systems while ensuring code quality through peer reviews, testing strategies, and engineering best practices.",
+  },
+  {
     date: "May 2025 - December 2025",
     title: "Senior Software Engineer",
     company: "Lancesoft Inc. (Client: McKinsey & Company)",
@@ -14,7 +21,7 @@ const experience = [
   },
   {
     date: "September 2019 — May 2025",
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company: "TeKnowledge (Client: OpenText)",
     description:
       "Key contributor to Fortify enterprise security and static analysis platforms, maintaining large-scale Java and Spring Boot systems. Automated build and release pipelines across Azure DevOps and AWS, accelerating delivery and ensuring production stability.",
