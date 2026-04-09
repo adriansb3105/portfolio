@@ -3,7 +3,7 @@
 Modern, professional, and responsive developer portfolio built with **Next.js**, **React**, and **Tailwind CSS**.  
 Designed to showcase experience, projects, and technical background with a clean, senior-level aesthetic.
 
-🔗 **Live Demo:** https://adrianserrano.pro/  
+🔗 **Website:** https://adrianserrano.pro/  
 📄 **Download CV:** Available directly from the website
 
 ---
